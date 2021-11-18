@@ -2,7 +2,7 @@ library(tidyverse)
 library(jsonlite)
 library(quanteda)
 
-fname <- "C:/Users/ecascts/Downloads/Toys_and_Games_5.json"
+fname <- "/Users/zejiachen/Desktop/fall 2021/QTM385-DataAnalytics-Dataset/VoC/Toys_and_Games_5.json"
 
 con <- file(fname, "r")
 mydata <- list()
